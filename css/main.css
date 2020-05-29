@@ -1,0 +1,30 @@
+ body{
+      font-family: 'Lobster', cursive;
+ }
+
+.height{
+    min-height: 100vh;
+ }
+.title-underline{
+   width: 200px;
+   height: 5px;
+   margin: 0 auto;
+   /* background: blue!important; */
+}
+.height-80{
+   min-height: 100vh;
+}
+.about-picture{
+   background: url(../img/about.jpg);
+   background-size: auto 100%;
+   background-position: auto;
+   background-repeat: no-repeat;
+   background-attachment: fixed;  
+}
+#filter,#progress{
+   background:linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.9)) ,url(../img/project5.jpg);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   background-position: auto;
+   background-attachment: fixed;
+}
